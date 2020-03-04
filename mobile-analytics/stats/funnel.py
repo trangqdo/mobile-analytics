@@ -25,6 +25,7 @@ def create_funnel_df(df, steps, from_date=None, to_date=None, step_interval=0):
                 df with 'step', 'val', 'pct', 'val-1' columns
     """
     a = 1
+    b = 1
     
     assert isinstance(steps, list), '"steps" should be a list of strings'
 
